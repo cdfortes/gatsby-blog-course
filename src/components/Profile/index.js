@@ -1,15 +1,35 @@
 import React from 'react'
+import { useStaticQuery, graphql } from 'gatsby'
+import Avatar from '../Avatar'
+import * as S from './styled'
 
 const Profile = () => {
+  const {
+    site: {
+      siteMetadata: { title, position, description }
+    }
+  } = useStaticQuery(graphql`
+    query MySiteMetadata {
+      site {
+        siteMetadata {
+          title
+          position
+          description
+        }
+      }
+    }
+  `)
   return (
-    <div className="Profile-wrapper">
-      <h1>Matt Foo</h1>
-      <h2>Programador Backend</h2>
-      <p>
-        Membro do Core Team da Empresa Foo, escrevo sobre o mundo backend e
-        outras coisas mais.
-      </p>
-    </div>
+    <S.ProfileWrapper>
+      <S.ProfileLink>
+        <Avatar />
+        <S.ProfileAuthor>
+          {title}
+          <S.ProfilePosition>{position}</S.ProfilePosition>
+        </S.ProfileAuthor>
+      </S.ProfileLink>
+      <S.ProfileDescription>{description}</S.ProfileDescription>
+    </S.ProfileWrapper>
   )
 }
 
