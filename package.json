@@ -22,7 +22,7 @@
     "gatsby-remark-relative-images-v2": "^0.1.5",
     "gatsby-source-filesystem": "^2.3.31",
     "gatsby-transformer-remark": "^2.8.35",
-    "gatsby-transformer-sharp": "^2.5.15",
+    "gatsby-transformer-sharp": "^2.5.16",
     "lazysizes": "^5.2.2",
     "prismjs": "^1.21.0",
     "prop-types": "^15.7.2",
