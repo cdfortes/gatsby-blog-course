@@ -1819,12 +1819,12 @@
     escape-string-regexp "^2.0.0"
     lodash.deburr "^4.1.0"
 
-"@styled-icons/bootstrap@10.25.0":
-  version "10.25.0"
-  resolved "https://registry.yarnpkg.com/@styled-icons/bootstrap/-/bootstrap-10.25.0.tgz#a08a2a099a4e67f9cc2295b3bf2e112fbc899880"
-  integrity sha512-LhWbhYSZJRXWfK7QMJD2ZJD0nu7YFHhj0WDoZ7FFWCie8VFNHeUMqmzrFZnaHOzrsN6DfICLglYmnNS3cYRuTA==
+"@styled-icons/bootstrap@10.29.0":
+  version "10.29.0"
+  resolved "https://registry.yarnpkg.com/@styled-icons/bootstrap/-/bootstrap-10.29.0.tgz#0f727581013ab020e7d8bb2e158430b0ee3b266d"
+  integrity sha512-B6UhU2p8zpAKBMLDmxgoXlHbODrvz8MM8nRLIGpCIWJ8rMen6a1FQJj22vKOL4ppC4A0hy2/IgBEc1gVwOdwiw==
   dependencies:
-    "@babel/runtime" "^7.12.5"
+    "@babel/runtime" "^7.12.13"
     "@styled-icons/styled-icon" "^10.6.0"
 
 "@styled-icons/boxicons-logos@10.23.0":
@@ -2059,10 +2059,10 @@
     "@babel/runtime" "^7.10.5"
     "@styled-icons/styled-icon" "^10.6.0"
 
-"@styled-icons/simple-icons@10.28.0":
-  version "10.28.0"
-  resolved "https://registry.yarnpkg.com/@styled-icons/simple-icons/-/simple-icons-10.28.0.tgz#0be224b9ae9b834c3000bfc9248a254bc983d79d"
-  integrity sha512-JzGwayEOf9sjKDoUDnZYhGeLJDT/gvIZShRktoDMxfeQC3+QfDbozOk4dS9oPp7crHgn7Q8nhkQQ29ucAZXRKg==
+"@styled-icons/simple-icons@10.29.0":
+  version "10.29.0"
+  resolved "https://registry.yarnpkg.com/@styled-icons/simple-icons/-/simple-icons-10.29.0.tgz#eb0dbb52c070f9a65668b525889a7cd43b7ca17c"
+  integrity sha512-TkNb6HII1xjmjlapY2msn8G+neLs6XYA3IclSR19Te5BLM8Su+Ct2unArSXoQym9W+SeiMnfjPI0dkAj9zY/Rw==
   dependencies:
     "@babel/runtime" "^7.12.13"
     "@styled-icons/styled-icon" "^10.6.0"
@@ -2672,10 +2672,10 @@ ajv@^6.1.0, ajv@^6.10.0, ajv@^6.10.2, ajv@^6.12.4:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-algoliasearch-helper@^3.1.0:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-3.2.2.tgz#12451c8e368935348453c8879785b20e1788c33c"
-  integrity sha512-/3XvE33R+gQKaiPdy3nmHYqhF8hqIu8xnlOicVxb1fD6uMFmxW8rGLzzrRfsPfxgAfm+c1NslLb3TzQVIB8aVA==
+algoliasearch-helper@^3.4.3:
+  version "3.4.4"
+  resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-3.4.4.tgz#f2eb46bc4d2f6fed82c7201b8ac4ce0a1988ae67"
+  integrity sha512-OjyVLjykaYKCMxxRMZNiwLp8CS310E0qAeIY2NaublcmLAh8/SL19+zYHp7XCLtMem2ZXwl3ywMiA32O9jszuw==
   dependencies:
     events "^1.1.1"
 
@@ -12006,27 +12006,27 @@ react-hot-loader@^4.12.21:
     shallowequal "^1.1.0"
     source-map "^0.7.3"
 
-react-instantsearch-core@^6.9.0:
-  version "6.9.0"
-  resolved "https://registry.yarnpkg.com/react-instantsearch-core/-/react-instantsearch-core-6.9.0.tgz#7dc05082a2df50f50181e77bb0a2fab0d245f5ea"
-  integrity sha512-xLNyF0mUBq7MaLQgmosBnxac7YnLTuanu5TKZkH7RFEVC2T5mi4fINtG6vAkOkVjiH90abv2wdPY6UjE/Vt6kQ==
+react-instantsearch-core@^6.10.1:
+  version "6.10.1"
+  resolved "https://registry.yarnpkg.com/react-instantsearch-core/-/react-instantsearch-core-6.10.1.tgz#e31a95806debb9aabd09865fd1e3821a0c555032"
+  integrity sha512-2fyMf/N7lzpvD8Ar56MZyAHA//KXLKEMpn3Hjo6ttVkr4cUWl9GDQh3fPWV72XXyEFrTUHivW1kHQ1lhRK29/w==
   dependencies:
     "@babel/runtime" "^7.1.2"
-    algoliasearch-helper "^3.1.0"
+    algoliasearch-helper "^3.4.3"
     prop-types "^15.6.2"
     react-fast-compare "^3.0.0"
 
-react-instantsearch-dom@6.9.0:
-  version "6.9.0"
-  resolved "https://registry.yarnpkg.com/react-instantsearch-dom/-/react-instantsearch-dom-6.9.0.tgz#bd1f564bb0243750ca0ee3b1ec55d60cfc87196f"
-  integrity sha512-G8jSIC5QutdiK6QhZwyLcIONg2C6/6wRMkAM6uZ5ObSDvY+h/PkSohc8//A7LNOyedOCACd/UfdWlmexSYjl6Q==
+react-instantsearch-dom@6.10.1:
+  version "6.10.1"
+  resolved "https://registry.yarnpkg.com/react-instantsearch-dom/-/react-instantsearch-dom-6.10.1.tgz#7fa8479330de5046862bbc7bf33c8bd3d43ac1bb"
+  integrity sha512-tP5F9eMsnuq4riGUntCIaY3RIEpj+0LsS2Qj9ndJghOP6ClhrSH6lDLloadG4Lu6fTMN4lEgc0YeUDxbRvLUUg==
   dependencies:
     "@babel/runtime" "^7.1.2"
-    algoliasearch-helper "^3.1.0"
+    algoliasearch-helper "^3.4.3"
     classnames "^2.2.5"
     prop-types "^15.6.2"
     react-fast-compare "^3.0.0"
-    react-instantsearch-core "^6.9.0"
+    react-instantsearch-core "^6.10.1"
 
 react-is@^16.12.0, react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
@@ -13671,13 +13671,13 @@ styled-components@^5.2.1:
     shallowequal "^1.1.0"
     supports-color "^5.5.0"
 
-styled-icons@^10.28.0:
-  version "10.28.0"
-  resolved "https://registry.yarnpkg.com/styled-icons/-/styled-icons-10.28.0.tgz#cd071ab0dd10d085d9c54807cfb7b69136f812f7"
-  integrity sha512-vswzg2DDtJ5IJnvnV3b5dhLCV82G4ss94gP9bzwBHrkAK94INVw4R8/WBpz/GLTFWqG1/s83W/hEafIz0vsouA==
+styled-icons@^10.29.0:
+  version "10.29.0"
+  resolved "https://registry.yarnpkg.com/styled-icons/-/styled-icons-10.29.0.tgz#d516590535f7dd2d1ad2aebc2f74f54d0a75b2fc"
+  integrity sha512-OlKqKvQvP6JSRIPGpAYh69b7Oj9JYzfuCesKpGj4eqHkC8iV8ibQp8mElIoK6y+5B7+aKSIEbHGRzHH6C7PYpg==
   dependencies:
     "@babel/runtime" "^7.12.13"
-    "@styled-icons/bootstrap" "10.25.0"
+    "@styled-icons/bootstrap" "10.29.0"
     "@styled-icons/boxicons-logos" "10.23.0"
     "@styled-icons/boxicons-regular" "10.23.0"
     "@styled-icons/boxicons-solid" "10.23.0"
@@ -13707,7 +13707,7 @@ styled-icons@^10.28.0:
     "@styled-icons/open-iconic" "10.18.0"
     "@styled-icons/remix-fill" "10.18.0"
     "@styled-icons/remix-line" "10.18.0"
-    "@styled-icons/simple-icons" "10.28.0"
+    "@styled-icons/simple-icons" "10.29.0"
     "@styled-icons/styled-icon" "10.6.3"
     "@styled-icons/typicons" "10.18.0"
     "@styled-icons/zondicons" "10.18.0"
