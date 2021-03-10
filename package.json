@@ -9,7 +9,7 @@
     "dotenv": "^8.2.0",
 
 
-    "gatsby": "^2.32.9",
+    "gatsby": "^2.32.11",
     "gatsby-image": "^3.0.0",
 
     "gatsby-plugin-algolia-search": "0.5.7",
